@@ -1,0 +1,117 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+    - good morning
+    - good evening
+    - what's up
+
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+    - take care
+    - catch you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - indeed
+    - sure
+    - absolutely
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - never
+    - I don't think so
+    - absolutely not
+
+- intent: ask_pizza
+  examples: |
+    - what is pizza
+    - tell me about pizza
+    - I want to know about pizza
+    - explain pizza
+    - what is pizza made of
+
+- intent: ask_ai
+  examples: |
+    - what is AI
+    - explain artificial intelligence
+    - tell me about AI
+    - define AI
+
+- intent: ask_java
+  examples: |
+    - what is Java
+    - explain Java
+    - is Java a language
+    - tell me about Java
+
+- intent: ask_leader_role
+  examples: |
+    - what is the role of a leader in a team
+    - explain leadership role
+    - how does a leader help a team
+    - leader role in team
+
+- intent: how_are_you
+  examples: |
+    - how are you
+    - how's it going
+    - how do you feel
+
+- intent: ask_python
+  examples: |
+    - what is Python
+    - explain Python
+    - tell me about Python
+    - is Python a programming language
+    - why is Python popular
+   
+   - intent: ask_weather
+      examples: |
+        - what's the weather like
+        - tell me the weather
+        - how's the weather today
+        - is it sunny outside
+        - is it raining
+
+    - intent: ask_time
+      examples: |
+        - what time is it
+        - tell me the time
+        - can you give me the time
+        - what's the current time
+        - do you know the time
+
+    - intent: ask_date
+      examples: |
+        - what's the date today
+        - tell me today's date
+        - can you give me the date
+        - what's the current date
+        - do you know today's date
+
+    - intent: ask_location
+      examples: |
+        - where am I
+        - can you tell me my location
+        - what's my current location
+        - where is this place
+        - do you know where I am
+
+    - intent: ask_joke
+      examples: |
+        - tell me a joke
+        - make me laugh
+        - do you know any jokes
+        - say something funny
+        - can you tell a joke

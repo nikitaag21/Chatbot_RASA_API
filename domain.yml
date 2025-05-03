@@ -1,0 +1,43 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - ask_pizza
+  - ask_ai
+  - ask_java
+  - ask_leader_role
+  - how_are_you
+  - ask_python
+
+responses:
+  utter_greet:
+    - text: "Hello! Ask me anything."
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day."
+
+  utter_ask_pizza:
+    - text: "Pizza is a popular Italian dish made of flattened dough topped with tomato sauce, cheese, and various toppings, baked in an oven."
+
+  utter_ask_ai:
+    - text: "Artificial Intelligence, or AI, refers to the simulation of human intelligence in machines that can learn, reason, and make decisions."
+
+  utter_ask_java:
+    - text: "Java is a high-level, object-oriented programming language used for building applications across platforms."
+
+  utter_ask_leader_role:
+    - text: "A team leader guides, motivates, and supports team members to achieve shared goals efficiently and effectively."
+
+  utter_how_are_you:
+    - text: "I'm just a bot, but I'm functioning perfectly. Thanks for asking!"
+
+  utter_ask_python:
+    - text: "Python is a versatile, high-level programming language known for its simplicity and wide range of applications, from web development to data science."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
